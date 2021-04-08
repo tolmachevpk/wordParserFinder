@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/Peter/CLionProjects/wordParserFinder/ahoKorasik.cpp
+ahoKorasik.h
+/Users/Peter/CLionProjects/wordParserFinder/ahoKorasik.h
+iostream
+-
+
+/Users/Peter/CLionProjects/wordParserFinder/ahoKorasik.h
+trie.h
+/Users/Peter/CLionProjects/wordParserFinder/trie.h
+
+/Users/Peter/CLionProjects/wordParserFinder/parser.h
+vector
+-
+string
+-
+string
+-
+
+/Users/Peter/CLionProjects/wordParserFinder/structTrie.h
+unordered_map
+-
+
+/Users/Peter/CLionProjects/wordParserFinder/trie.h
+parser.h
+/Users/Peter/CLionProjects/wordParserFinder/parser.h
+structTrie.h
+/Users/Peter/CLionProjects/wordParserFinder/structTrie.h
+string
+-
+

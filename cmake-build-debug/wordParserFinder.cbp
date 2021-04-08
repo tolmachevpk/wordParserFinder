@@ -80,7 +80,28 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/ahoKorasik.cpp">
+			<Option target="wordParserFinder"/>
+		</Unit>
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/ahoKorasik.h">
+			<Option target="wordParserFinder"/>
+		</Unit>
 		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/main.cpp">
+			<Option target="wordParserFinder"/>
+		</Unit>
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/parser.cpp">
+			<Option target="wordParserFinder"/>
+		</Unit>
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/parser.h">
+			<Option target="wordParserFinder"/>
+		</Unit>
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/structTrie.h">
+			<Option target="wordParserFinder"/>
+		</Unit>
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/trie.cpp">
+			<Option target="wordParserFinder"/>
+		</Unit>
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/trie.h">
 			<Option target="wordParserFinder"/>
 		</Unit>
 		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/CMakeLists.txt">

@@ -4,7 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/Peter/CLionProjects/wordParserFinder/ahoKorasik.cpp" "/Users/Peter/CLionProjects/wordParserFinder/cmake-build-debug/CMakeFiles/wordParserFinder.dir/ahoKorasik.cpp.o"
   "/Users/Peter/CLionProjects/wordParserFinder/main.cpp" "/Users/Peter/CLionProjects/wordParserFinder/cmake-build-debug/CMakeFiles/wordParserFinder.dir/main.cpp.o"
+  "/Users/Peter/CLionProjects/wordParserFinder/parser.cpp" "/Users/Peter/CLionProjects/wordParserFinder/cmake-build-debug/CMakeFiles/wordParserFinder.dir/parser.cpp.o"
+  "/Users/Peter/CLionProjects/wordParserFinder/trie.cpp" "/Users/Peter/CLionProjects/wordParserFinder/cmake-build-debug/CMakeFiles/wordParserFinder.dir/trie.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

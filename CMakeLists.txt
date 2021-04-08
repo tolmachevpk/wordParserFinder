@@ -3,4 +3,4 @@ project(wordParserFinder)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(wordParserFinder main.cpp)
+add_executable(wordParserFinder main.cpp trie.h trie.cpp structTrie.h parser.h parser.cpp ahoKorasik.h ahoKorasik.cpp)
