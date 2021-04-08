@@ -142,113 +142,140 @@ wordParserFinder/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/wordParserFinder.dir/build.make CMakeFiles/wordParserFinder.dir/build
 .PHONY : wordParserFinder/fast
 
-ahoKorasik.o: ahoKorasik.cpp.o
+Sources/ahoKorasik.o: Sources/ahoKorasik.cpp.o
 
-.PHONY : ahoKorasik.o
-
-# target to build an object file
-ahoKorasik.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/wordParserFinder.dir/build.make CMakeFiles/wordParserFinder.dir/ahoKorasik.cpp.o
-.PHONY : ahoKorasik.cpp.o
-
-ahoKorasik.i: ahoKorasik.cpp.i
-
-.PHONY : ahoKorasik.i
-
-# target to preprocess a source file
-ahoKorasik.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/wordParserFinder.dir/build.make CMakeFiles/wordParserFinder.dir/ahoKorasik.cpp.i
-.PHONY : ahoKorasik.cpp.i
-
-ahoKorasik.s: ahoKorasik.cpp.s
-
-.PHONY : ahoKorasik.s
-
-# target to generate assembly for a file
-ahoKorasik.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/wordParserFinder.dir/build.make CMakeFiles/wordParserFinder.dir/ahoKorasik.cpp.s
-.PHONY : ahoKorasik.cpp.s
-
-main.o: main.cpp.o
-
-.PHONY : main.o
+.PHONY : Sources/ahoKorasik.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/wordParserFinder.dir/build.make CMakeFiles/wordParserFinder.dir/main.cpp.o
-.PHONY : main.cpp.o
+Sources/ahoKorasik.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wordParserFinder.dir/build.make CMakeFiles/wordParserFinder.dir/Sources/ahoKorasik.cpp.o
+.PHONY : Sources/ahoKorasik.cpp.o
 
-main.i: main.cpp.i
+Sources/ahoKorasik.i: Sources/ahoKorasik.cpp.i
 
-.PHONY : main.i
+.PHONY : Sources/ahoKorasik.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/wordParserFinder.dir/build.make CMakeFiles/wordParserFinder.dir/main.cpp.i
-.PHONY : main.cpp.i
+Sources/ahoKorasik.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wordParserFinder.dir/build.make CMakeFiles/wordParserFinder.dir/Sources/ahoKorasik.cpp.i
+.PHONY : Sources/ahoKorasik.cpp.i
 
-main.s: main.cpp.s
+Sources/ahoKorasik.s: Sources/ahoKorasik.cpp.s
 
-.PHONY : main.s
+.PHONY : Sources/ahoKorasik.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/wordParserFinder.dir/build.make CMakeFiles/wordParserFinder.dir/main.cpp.s
-.PHONY : main.cpp.s
+Sources/ahoKorasik.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wordParserFinder.dir/build.make CMakeFiles/wordParserFinder.dir/Sources/ahoKorasik.cpp.s
+.PHONY : Sources/ahoKorasik.cpp.s
 
-parser.o: parser.cpp.o
+Sources/main.o: Sources/main.cpp.o
 
-.PHONY : parser.o
+.PHONY : Sources/main.o
 
 # target to build an object file
-parser.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/wordParserFinder.dir/build.make CMakeFiles/wordParserFinder.dir/parser.cpp.o
-.PHONY : parser.cpp.o
+Sources/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wordParserFinder.dir/build.make CMakeFiles/wordParserFinder.dir/Sources/main.cpp.o
+.PHONY : Sources/main.cpp.o
 
-parser.i: parser.cpp.i
+Sources/main.i: Sources/main.cpp.i
 
-.PHONY : parser.i
+.PHONY : Sources/main.i
 
 # target to preprocess a source file
-parser.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/wordParserFinder.dir/build.make CMakeFiles/wordParserFinder.dir/parser.cpp.i
-.PHONY : parser.cpp.i
+Sources/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wordParserFinder.dir/build.make CMakeFiles/wordParserFinder.dir/Sources/main.cpp.i
+.PHONY : Sources/main.cpp.i
 
-parser.s: parser.cpp.s
+Sources/main.s: Sources/main.cpp.s
 
-.PHONY : parser.s
+.PHONY : Sources/main.s
 
 # target to generate assembly for a file
-parser.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/wordParserFinder.dir/build.make CMakeFiles/wordParserFinder.dir/parser.cpp.s
-.PHONY : parser.cpp.s
+Sources/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wordParserFinder.dir/build.make CMakeFiles/wordParserFinder.dir/Sources/main.cpp.s
+.PHONY : Sources/main.cpp.s
 
-trie.o: trie.cpp.o
+Sources/mainWindow.o: Sources/mainWindow.cpp.o
 
-.PHONY : trie.o
+.PHONY : Sources/mainWindow.o
 
 # target to build an object file
-trie.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/wordParserFinder.dir/build.make CMakeFiles/wordParserFinder.dir/trie.cpp.o
-.PHONY : trie.cpp.o
+Sources/mainWindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wordParserFinder.dir/build.make CMakeFiles/wordParserFinder.dir/Sources/mainWindow.cpp.o
+.PHONY : Sources/mainWindow.cpp.o
 
-trie.i: trie.cpp.i
+Sources/mainWindow.i: Sources/mainWindow.cpp.i
 
-.PHONY : trie.i
+.PHONY : Sources/mainWindow.i
 
 # target to preprocess a source file
-trie.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/wordParserFinder.dir/build.make CMakeFiles/wordParserFinder.dir/trie.cpp.i
-.PHONY : trie.cpp.i
+Sources/mainWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wordParserFinder.dir/build.make CMakeFiles/wordParserFinder.dir/Sources/mainWindow.cpp.i
+.PHONY : Sources/mainWindow.cpp.i
 
-trie.s: trie.cpp.s
+Sources/mainWindow.s: Sources/mainWindow.cpp.s
 
-.PHONY : trie.s
+.PHONY : Sources/mainWindow.s
 
 # target to generate assembly for a file
-trie.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/wordParserFinder.dir/build.make CMakeFiles/wordParserFinder.dir/trie.cpp.s
-.PHONY : trie.cpp.s
+Sources/mainWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wordParserFinder.dir/build.make CMakeFiles/wordParserFinder.dir/Sources/mainWindow.cpp.s
+.PHONY : Sources/mainWindow.cpp.s
+
+Sources/parser.o: Sources/parser.cpp.o
+
+.PHONY : Sources/parser.o
+
+# target to build an object file
+Sources/parser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wordParserFinder.dir/build.make CMakeFiles/wordParserFinder.dir/Sources/parser.cpp.o
+.PHONY : Sources/parser.cpp.o
+
+Sources/parser.i: Sources/parser.cpp.i
+
+.PHONY : Sources/parser.i
+
+# target to preprocess a source file
+Sources/parser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wordParserFinder.dir/build.make CMakeFiles/wordParserFinder.dir/Sources/parser.cpp.i
+.PHONY : Sources/parser.cpp.i
+
+Sources/parser.s: Sources/parser.cpp.s
+
+.PHONY : Sources/parser.s
+
+# target to generate assembly for a file
+Sources/parser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wordParserFinder.dir/build.make CMakeFiles/wordParserFinder.dir/Sources/parser.cpp.s
+.PHONY : Sources/parser.cpp.s
+
+Sources/trie.o: Sources/trie.cpp.o
+
+.PHONY : Sources/trie.o
+
+# target to build an object file
+Sources/trie.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wordParserFinder.dir/build.make CMakeFiles/wordParserFinder.dir/Sources/trie.cpp.o
+.PHONY : Sources/trie.cpp.o
+
+Sources/trie.i: Sources/trie.cpp.i
+
+.PHONY : Sources/trie.i
+
+# target to preprocess a source file
+Sources/trie.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wordParserFinder.dir/build.make CMakeFiles/wordParserFinder.dir/Sources/trie.cpp.i
+.PHONY : Sources/trie.cpp.i
+
+Sources/trie.s: Sources/trie.cpp.s
+
+.PHONY : Sources/trie.s
+
+# target to generate assembly for a file
+Sources/trie.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wordParserFinder.dir/build.make CMakeFiles/wordParserFinder.dir/Sources/trie.cpp.s
+.PHONY : Sources/trie.cpp.s
 
 # Help Target
 help:
@@ -259,18 +286,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... wordParserFinder"
-	@echo "... ahoKorasik.o"
-	@echo "... ahoKorasik.i"
-	@echo "... ahoKorasik.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... parser.o"
-	@echo "... parser.i"
-	@echo "... parser.s"
-	@echo "... trie.o"
-	@echo "... trie.i"
-	@echo "... trie.s"
+	@echo "... Sources/ahoKorasik.o"
+	@echo "... Sources/ahoKorasik.i"
+	@echo "... Sources/ahoKorasik.s"
+	@echo "... Sources/main.o"
+	@echo "... Sources/main.i"
+	@echo "... Sources/main.s"
+	@echo "... Sources/mainWindow.o"
+	@echo "... Sources/mainWindow.i"
+	@echo "... Sources/mainWindow.s"
+	@echo "... Sources/parser.o"
+	@echo "... Sources/parser.i"
+	@echo "... Sources/parser.s"
+	@echo "... Sources/trie.o"
+	@echo "... Sources/trie.i"
+	@echo "... Sources/trie.s"
 .PHONY : help
 
 

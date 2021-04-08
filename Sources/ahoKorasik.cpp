@@ -1,21 +1,26 @@
-#include "ahoKorasik.h"
+#include "../Headers/ahoKorasik.h"
 #include <iostream>
 
-void AhoKorasik::algorithmRealization(const std::string &word) {
+std::string AhoKorasik::algorithmRealization(const std::string &word) {
     Trie* node = root;
     for (int i = 0; i < word.length(); i++) {
         node = goTo(node, word[i]);
-        out(node);
+        if (out(node)) {
+            return word;
+        }
     }
+    return "-1";
 }
 
-void AhoKorasik::out(Trie* node) {
+bool AhoKorasik::out(Trie* node) {
     if (node->terminalVertex == false) {
         node = termLink(node);
     }
     for ( ; node != root; node = termLink(node)) {
-        std::cout << node->word << std::endl;
+        // std::cout << node->word << std::endl;
+        return true;
     }
+    return false;
 }
 
 Trie* AhoKorasik::termLink(Trie* node) {

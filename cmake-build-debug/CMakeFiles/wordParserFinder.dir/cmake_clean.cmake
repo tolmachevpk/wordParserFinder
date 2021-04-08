@@ -1,8 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/wordParserFinder.dir/ahoKorasik.cpp.o"
-  "CMakeFiles/wordParserFinder.dir/main.cpp.o"
-  "CMakeFiles/wordParserFinder.dir/parser.cpp.o"
-  "CMakeFiles/wordParserFinder.dir/trie.cpp.o"
+  "CMakeFiles/wordParserFinder.dir/Sources/ahoKorasik.cpp.o"
+  "CMakeFiles/wordParserFinder.dir/Sources/main.cpp.o"
+  "CMakeFiles/wordParserFinder.dir/Sources/mainWindow.cpp.o"
+  "CMakeFiles/wordParserFinder.dir/Sources/parser.cpp.o"
+  "CMakeFiles/wordParserFinder.dir/Sources/trie.cpp.o"
   "wordParserFinder"
   "wordParserFinder.pdb"
 )

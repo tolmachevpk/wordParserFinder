@@ -5,7 +5,7 @@
 		<Option title="wordParserFinder"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\anaconda3\;CMake Files\..\..\anaconda3\lib\;CMake Files\..\..\anaconda3\lib\cmake\;CMake Files\..\..\anaconda3\lib\cmake\Qt5Widgets\;CMake Files\..\..\anaconda3\lib\cmake\Qt5Gui\;CMake Files\..\..\anaconda3\lib\cmake\Qt5Core\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/Peter/CLionProjects/wordParserFinder/cmake-build-debug"/>
@@ -44,6 +44,15 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/Users/Peter/anaconda3/include/qt"/>
+					<Add directory="/Users/Peter/anaconda3/include/qt/QtWidgets"/>
+					<Add directory="/Users/Peter/anaconda3/include/qt/QtGui"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers"/>
+					<Add directory="/Users/Peter/anaconda3/include/qt/QtCore"/>
+					<Add directory="/Users/Peter/anaconda3/./mkspecs/macx-clang"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
@@ -65,6 +74,15 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/Users/Peter/anaconda3/include/qt"/>
+					<Add directory="/Users/Peter/anaconda3/include/qt/QtWidgets"/>
+					<Add directory="/Users/Peter/anaconda3/include/qt/QtGui"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers"/>
+					<Add directory="/Users/Peter/anaconda3/include/qt/QtCore"/>
+					<Add directory="/Users/Peter/anaconda3/./mkspecs/macx-clang"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
@@ -80,32 +98,116 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/ahoKorasik.cpp">
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/Headers/ahoKorasik.h">
 			<Option target="wordParserFinder"/>
 		</Unit>
-		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/ahoKorasik.h">
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/Headers/mainWindow.h">
 			<Option target="wordParserFinder"/>
 		</Unit>
-		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/main.cpp">
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/Headers/parser.h">
 			<Option target="wordParserFinder"/>
 		</Unit>
-		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/parser.cpp">
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/Headers/structTrie.h">
 			<Option target="wordParserFinder"/>
 		</Unit>
-		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/parser.h">
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/Headers/trie.h">
 			<Option target="wordParserFinder"/>
 		</Unit>
-		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/structTrie.h">
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/Sources/ahoKorasik.cpp">
 			<Option target="wordParserFinder"/>
 		</Unit>
-		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/trie.cpp">
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/Sources/main.cpp">
 			<Option target="wordParserFinder"/>
 		</Unit>
-		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/trie.h">
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/Sources/mainWindow.cpp">
+			<Option target="wordParserFinder"/>
+		</Unit>
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/Sources/parser.cpp">
+			<Option target="wordParserFinder"/>
+		</Unit>
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/Sources/trie.cpp">
 			<Option target="wordParserFinder"/>
 		</Unit>
 		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/../../anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\anaconda3\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/../../anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\anaconda3\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/../../anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\anaconda3\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/../../anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\anaconda3\lib\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/../../anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/../../anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/../../anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QCocoaIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QMacJp2Plugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/../../anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\anaconda3\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/../../anaconda3/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\anaconda3\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/../../anaconda3/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\anaconda3\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/../../anaconda3/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\anaconda3\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/../../anaconda3/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\anaconda3\lib\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/Users/Peter/CLionProjects/wordParserFinder/../../anaconda3/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\anaconda3\lib\cmake\Qt5Core\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

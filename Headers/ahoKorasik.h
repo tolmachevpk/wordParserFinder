@@ -5,11 +5,11 @@
 class AhoKorasik : private MakeTrie {
 public:
     explicit AhoKorasik(const std::string& s) : MakeTrie(s) {}
-    void algorithmRealization(const std::string &word);
+    std::string algorithmRealization(const std::string &word);
+    bool out(Trie* node);
 private:
     Trie* sufLink(Trie* node);
     Trie* goTo(Trie* node, char a);
-    void out(Trie* node);
     Trie* termLink(Trie* node);
 };
 

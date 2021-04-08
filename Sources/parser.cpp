@@ -1,4 +1,4 @@
-#include "parser.h"
+#include "../Headers/parser.h"
 
 Parser::Parser(std::string s) {
     toLower(s);

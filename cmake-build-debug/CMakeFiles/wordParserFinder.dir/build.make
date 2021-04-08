@@ -76,75 +76,93 @@ include CMakeFiles/wordParserFinder.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/wordParserFinder.dir/flags.make
 
-CMakeFiles/wordParserFinder.dir/main.cpp.o: CMakeFiles/wordParserFinder.dir/flags.make
-CMakeFiles/wordParserFinder.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Peter/CLionProjects/wordParserFinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/wordParserFinder.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wordParserFinder.dir/main.cpp.o -c /Users/Peter/CLionProjects/wordParserFinder/main.cpp
+CMakeFiles/wordParserFinder.dir/Sources/main.cpp.o: CMakeFiles/wordParserFinder.dir/flags.make
+CMakeFiles/wordParserFinder.dir/Sources/main.cpp.o: ../Sources/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Peter/CLionProjects/wordParserFinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/wordParserFinder.dir/Sources/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wordParserFinder.dir/Sources/main.cpp.o -c /Users/Peter/CLionProjects/wordParserFinder/Sources/main.cpp
 
-CMakeFiles/wordParserFinder.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wordParserFinder.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Peter/CLionProjects/wordParserFinder/main.cpp > CMakeFiles/wordParserFinder.dir/main.cpp.i
+CMakeFiles/wordParserFinder.dir/Sources/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wordParserFinder.dir/Sources/main.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Peter/CLionProjects/wordParserFinder/Sources/main.cpp > CMakeFiles/wordParserFinder.dir/Sources/main.cpp.i
 
-CMakeFiles/wordParserFinder.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wordParserFinder.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Peter/CLionProjects/wordParserFinder/main.cpp -o CMakeFiles/wordParserFinder.dir/main.cpp.s
+CMakeFiles/wordParserFinder.dir/Sources/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wordParserFinder.dir/Sources/main.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Peter/CLionProjects/wordParserFinder/Sources/main.cpp -o CMakeFiles/wordParserFinder.dir/Sources/main.cpp.s
 
-CMakeFiles/wordParserFinder.dir/trie.cpp.o: CMakeFiles/wordParserFinder.dir/flags.make
-CMakeFiles/wordParserFinder.dir/trie.cpp.o: ../trie.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Peter/CLionProjects/wordParserFinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/wordParserFinder.dir/trie.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wordParserFinder.dir/trie.cpp.o -c /Users/Peter/CLionProjects/wordParserFinder/trie.cpp
+CMakeFiles/wordParserFinder.dir/Sources/trie.cpp.o: CMakeFiles/wordParserFinder.dir/flags.make
+CMakeFiles/wordParserFinder.dir/Sources/trie.cpp.o: ../Sources/trie.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Peter/CLionProjects/wordParserFinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/wordParserFinder.dir/Sources/trie.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wordParserFinder.dir/Sources/trie.cpp.o -c /Users/Peter/CLionProjects/wordParserFinder/Sources/trie.cpp
 
-CMakeFiles/wordParserFinder.dir/trie.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wordParserFinder.dir/trie.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Peter/CLionProjects/wordParserFinder/trie.cpp > CMakeFiles/wordParserFinder.dir/trie.cpp.i
+CMakeFiles/wordParserFinder.dir/Sources/trie.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wordParserFinder.dir/Sources/trie.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Peter/CLionProjects/wordParserFinder/Sources/trie.cpp > CMakeFiles/wordParserFinder.dir/Sources/trie.cpp.i
 
-CMakeFiles/wordParserFinder.dir/trie.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wordParserFinder.dir/trie.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Peter/CLionProjects/wordParserFinder/trie.cpp -o CMakeFiles/wordParserFinder.dir/trie.cpp.s
+CMakeFiles/wordParserFinder.dir/Sources/trie.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wordParserFinder.dir/Sources/trie.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Peter/CLionProjects/wordParserFinder/Sources/trie.cpp -o CMakeFiles/wordParserFinder.dir/Sources/trie.cpp.s
 
-CMakeFiles/wordParserFinder.dir/parser.cpp.o: CMakeFiles/wordParserFinder.dir/flags.make
-CMakeFiles/wordParserFinder.dir/parser.cpp.o: ../parser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Peter/CLionProjects/wordParserFinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/wordParserFinder.dir/parser.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wordParserFinder.dir/parser.cpp.o -c /Users/Peter/CLionProjects/wordParserFinder/parser.cpp
+CMakeFiles/wordParserFinder.dir/Sources/parser.cpp.o: CMakeFiles/wordParserFinder.dir/flags.make
+CMakeFiles/wordParserFinder.dir/Sources/parser.cpp.o: ../Sources/parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Peter/CLionProjects/wordParserFinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/wordParserFinder.dir/Sources/parser.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wordParserFinder.dir/Sources/parser.cpp.o -c /Users/Peter/CLionProjects/wordParserFinder/Sources/parser.cpp
 
-CMakeFiles/wordParserFinder.dir/parser.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wordParserFinder.dir/parser.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Peter/CLionProjects/wordParserFinder/parser.cpp > CMakeFiles/wordParserFinder.dir/parser.cpp.i
+CMakeFiles/wordParserFinder.dir/Sources/parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wordParserFinder.dir/Sources/parser.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Peter/CLionProjects/wordParserFinder/Sources/parser.cpp > CMakeFiles/wordParserFinder.dir/Sources/parser.cpp.i
 
-CMakeFiles/wordParserFinder.dir/parser.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wordParserFinder.dir/parser.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Peter/CLionProjects/wordParserFinder/parser.cpp -o CMakeFiles/wordParserFinder.dir/parser.cpp.s
+CMakeFiles/wordParserFinder.dir/Sources/parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wordParserFinder.dir/Sources/parser.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Peter/CLionProjects/wordParserFinder/Sources/parser.cpp -o CMakeFiles/wordParserFinder.dir/Sources/parser.cpp.s
 
-CMakeFiles/wordParserFinder.dir/ahoKorasik.cpp.o: CMakeFiles/wordParserFinder.dir/flags.make
-CMakeFiles/wordParserFinder.dir/ahoKorasik.cpp.o: ../ahoKorasik.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Peter/CLionProjects/wordParserFinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/wordParserFinder.dir/ahoKorasik.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wordParserFinder.dir/ahoKorasik.cpp.o -c /Users/Peter/CLionProjects/wordParserFinder/ahoKorasik.cpp
+CMakeFiles/wordParserFinder.dir/Sources/ahoKorasik.cpp.o: CMakeFiles/wordParserFinder.dir/flags.make
+CMakeFiles/wordParserFinder.dir/Sources/ahoKorasik.cpp.o: ../Sources/ahoKorasik.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Peter/CLionProjects/wordParserFinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/wordParserFinder.dir/Sources/ahoKorasik.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wordParserFinder.dir/Sources/ahoKorasik.cpp.o -c /Users/Peter/CLionProjects/wordParserFinder/Sources/ahoKorasik.cpp
 
-CMakeFiles/wordParserFinder.dir/ahoKorasik.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wordParserFinder.dir/ahoKorasik.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Peter/CLionProjects/wordParserFinder/ahoKorasik.cpp > CMakeFiles/wordParserFinder.dir/ahoKorasik.cpp.i
+CMakeFiles/wordParserFinder.dir/Sources/ahoKorasik.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wordParserFinder.dir/Sources/ahoKorasik.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Peter/CLionProjects/wordParserFinder/Sources/ahoKorasik.cpp > CMakeFiles/wordParserFinder.dir/Sources/ahoKorasik.cpp.i
 
-CMakeFiles/wordParserFinder.dir/ahoKorasik.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wordParserFinder.dir/ahoKorasik.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Peter/CLionProjects/wordParserFinder/ahoKorasik.cpp -o CMakeFiles/wordParserFinder.dir/ahoKorasik.cpp.s
+CMakeFiles/wordParserFinder.dir/Sources/ahoKorasik.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wordParserFinder.dir/Sources/ahoKorasik.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Peter/CLionProjects/wordParserFinder/Sources/ahoKorasik.cpp -o CMakeFiles/wordParserFinder.dir/Sources/ahoKorasik.cpp.s
+
+CMakeFiles/wordParserFinder.dir/Sources/mainWindow.cpp.o: CMakeFiles/wordParserFinder.dir/flags.make
+CMakeFiles/wordParserFinder.dir/Sources/mainWindow.cpp.o: ../Sources/mainWindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Peter/CLionProjects/wordParserFinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/wordParserFinder.dir/Sources/mainWindow.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wordParserFinder.dir/Sources/mainWindow.cpp.o -c /Users/Peter/CLionProjects/wordParserFinder/Sources/mainWindow.cpp
+
+CMakeFiles/wordParserFinder.dir/Sources/mainWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wordParserFinder.dir/Sources/mainWindow.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Peter/CLionProjects/wordParserFinder/Sources/mainWindow.cpp > CMakeFiles/wordParserFinder.dir/Sources/mainWindow.cpp.i
+
+CMakeFiles/wordParserFinder.dir/Sources/mainWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wordParserFinder.dir/Sources/mainWindow.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Peter/CLionProjects/wordParserFinder/Sources/mainWindow.cpp -o CMakeFiles/wordParserFinder.dir/Sources/mainWindow.cpp.s
 
 # Object files for target wordParserFinder
 wordParserFinder_OBJECTS = \
-"CMakeFiles/wordParserFinder.dir/main.cpp.o" \
-"CMakeFiles/wordParserFinder.dir/trie.cpp.o" \
-"CMakeFiles/wordParserFinder.dir/parser.cpp.o" \
-"CMakeFiles/wordParserFinder.dir/ahoKorasik.cpp.o"
+"CMakeFiles/wordParserFinder.dir/Sources/main.cpp.o" \
+"CMakeFiles/wordParserFinder.dir/Sources/trie.cpp.o" \
+"CMakeFiles/wordParserFinder.dir/Sources/parser.cpp.o" \
+"CMakeFiles/wordParserFinder.dir/Sources/ahoKorasik.cpp.o" \
+"CMakeFiles/wordParserFinder.dir/Sources/mainWindow.cpp.o"
 
 # External object files for target wordParserFinder
 wordParserFinder_EXTERNAL_OBJECTS =
 
-wordParserFinder: CMakeFiles/wordParserFinder.dir/main.cpp.o
-wordParserFinder: CMakeFiles/wordParserFinder.dir/trie.cpp.o
-wordParserFinder: CMakeFiles/wordParserFinder.dir/parser.cpp.o
-wordParserFinder: CMakeFiles/wordParserFinder.dir/ahoKorasik.cpp.o
+wordParserFinder: CMakeFiles/wordParserFinder.dir/Sources/main.cpp.o
+wordParserFinder: CMakeFiles/wordParserFinder.dir/Sources/trie.cpp.o
+wordParserFinder: CMakeFiles/wordParserFinder.dir/Sources/parser.cpp.o
+wordParserFinder: CMakeFiles/wordParserFinder.dir/Sources/ahoKorasik.cpp.o
+wordParserFinder: CMakeFiles/wordParserFinder.dir/Sources/mainWindow.cpp.o
 wordParserFinder: CMakeFiles/wordParserFinder.dir/build.make
+wordParserFinder: /Users/Peter/anaconda3/lib/libQt5Widgets.5.9.7.dylib
+wordParserFinder: /Users/Peter/anaconda3/lib/libQt5Gui.5.9.7.dylib
+wordParserFinder: /Users/Peter/anaconda3/lib/libQt5Core.5.9.7.dylib
 wordParserFinder: CMakeFiles/wordParserFinder.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Peter/CLionProjects/wordParserFinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable wordParserFinder"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Peter/CLionProjects/wordParserFinder/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable wordParserFinder"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/wordParserFinder.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
